@@ -1,6 +1,3 @@
-#Alana Sung
-# September 1st, 2024
-
 import os
 import logging
 import pandas as pd
