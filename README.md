@@ -12,27 +12,33 @@ This project investigates potential manipulation in professional men’s tennis 
 ## Contributing
 ## License
 ## Acknowledgements
+
+
 ## Overview
 The integrity of tournament draws is crucial for maintaining fairness in professional tennis. This project leverages machine learning, specifically Variational Autoencoders, to analyze historical match data and identify patterns or anomalies that suggest potential manipulation in the draw process.
 
-Features
+## Features
 Load and preprocess ATP match data from 2000 to 2017.
+
 Engineer features relevant to player rankings, age differences, and match statistics.
+
 Train a Variational Autoencoder (VAE) model to detect anomalies in match outcomes.
+
 Analyze anomalies by year, player, and tournament to assess potential biases.
+
 Save analysis results to CSV files for further review.
-Data
+
+## Data
 Match data used in this project is sourced from publicly available ATP records. The data includes information such as player rankings, match outcomes, tournament dates, and player statistics.
 
-Data Files:
-
+## Data Files:
 atp_matches_2000.csv to atp_matches_2017.csv
 Ensure these data files are placed in the root directory of the project before running the scripts.
 
 Installation
 Clone the repository and install the required dependencies.
 
-bash
+```bash
 Copy code
 git clone https://github.com/your-username/tennis-draw-anomalies.git
 cd tennis-draw-anomalies
