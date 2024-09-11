@@ -1,18 +1,18 @@
-Detecting Anomalies in Professional Men's Tennis Tournament Draws
+## Detecting Anomalies in Professional Men's Tennis Tournament Draws
 This project investigates potential manipulation in professional men’s tennis tournament draws using statistical analysis and artificial intelligence (AI). By analyzing ATP match data from 2000 to 2017, this study applies a Variational Autoencoder (VAE) model to detect anomalies that may indicate non-randomness or biases in the draw process.
 
-Table of Contents
-Overview
-Features
-Data
-Installation
-Usage
-Results
-Project Structure
-Contributing
-License
-Acknowledgements
-Overview
+## Table of Contents
+## Overview
+## Features
+## Data
+## Installation
+## Usage
+## Results
+## Project Structure
+## Contributing
+## License
+## Acknowledgements
+## Overview
 The integrity of tournament draws is crucial for maintaining fairness in professional tennis. This project leverages machine learning, specifically Variational Autoencoders, to analyze historical match data and identify patterns or anomalies that suggest potential manipulation in the draw process.
 
 Features
