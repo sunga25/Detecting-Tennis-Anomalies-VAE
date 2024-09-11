@@ -2,16 +2,26 @@
 This project investigates potential manipulation in professional men’s tennis tournament draws using statistical analysis and artificial intelligence (AI). By analyzing ATP match data from 2000 to 2017, this study applies a Variational Autoencoder (VAE) model to detect anomalies that may indicate non-randomness or biases in the draw process.
 
 ## Table of Contents
-## Overview
-## Features
-## Data
-## Installation
-## Usage
-## Results
-## Project Structure
-## Contributing
-## License
-## Acknowledgements
+
+Overview
+
+Features
+
+Data
+
+Installation
+
+Usage
+
+Results
+
+Project Structure
+
+Contributing
+
+License
+
+Acknowledgements
 
 
 ## Overview
