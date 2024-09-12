@@ -48,28 +48,43 @@ Ensure these data files are placed in the root directory of the project before r
 
 ## Installation
 Clone the repository and install the required dependencies.
-
-```bash
 git clone https://github.com/your-username/tennis-draw-anomalies.git
 cd tennis-draw-anomalies
 pip install -r requirements.txt
 
-Usage:
-Prepare Data: Ensure all ATP match data CSV files are in the root directory.
-Run the Main Script: Execute the main script to load data, preprocess it, train the model, and analyze anomalies.
-bash
-Copy code
+## Usage:
+
+Prepare Data: 
+
+Ensure all ATP match data CSV files are in the root directory.
+
+Run the Main Script: 
+
+Execute the main script to load data, preprocess it, train the model, and analyze anomalies.
+
 python main.py
-Review Results: Anomaly detection results will be saved as CSV files in the output directory.
-Results
+
+Review Results: 
+
+Anomaly detection results will be saved as CSV files in the output directory.
+
+## Results
 The results of the analysis include:
 
-Detected Anomalies: A CSV file listing all detected anomalies in matchups.
-Anomalies per Year: A summary of anomalies detected per year.
-Anomalies by Player and Tournament: Analysis of which players and tournaments had the most anomalies.
-Project Structure
-bash
-Copy code
+Detected Anomalies:
+
+A CSV file listing all detected anomalies in matchups.
+
+Anomalies per Year: 
+
+A summary of anomalies detected per year.
+
+Anomalies by Player and Tournament: 
+
+Analysis of which players and tournaments had the most anomalies.
+
+## Project Structure
+
 tennis-draw-anomalies/
 │
 ├── data/                           # Directory for raw data files
@@ -91,12 +106,14 @@ tennis-draw-anomalies/
 ├── main.py                         # Main script to run the entire pipeline
 ├── requirements.txt                # List of required Python packages
 └── README.md                       # Project README file
-Contributing
+
+
+## Contributing
 Contributions are welcome! Please fork the repository and submit a pull request with your changes. For major changes, please open an issue first to discuss what you would like to change.
 
-License
+## License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-Acknowledgements
+## Acknowledgements
 Thanks to the ATP Tour for making match data publicly available.
 Special thanks to all contributors and the open-source community for their tools and resources.
