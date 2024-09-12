@@ -63,13 +63,13 @@ Prepare Data:
 
 Ensure all ATP match data CSV files are in the root directory.
 
-Run the Main Script: 
+## Run the Main Script: 
 
 Execute the main script to load data, preprocess it, train the model, and analyze anomalies.
 
 python main.py
 
-Review Results: 
+## Review Results: 
 
 Anomaly detection results will be saved as CSV files in the output directory.
 
