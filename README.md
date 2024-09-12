@@ -48,8 +48,11 @@ Ensure these data files are placed in the root directory of the project before r
 
 ## Installation
 Clone the repository and install the required dependencies.
+
 git clone https://github.com/your-username/tennis-draw-anomalies.git
+
 cd tennis-draw-anomalies
+
 pip install -r requirements.txt
 
 ## Usage:
