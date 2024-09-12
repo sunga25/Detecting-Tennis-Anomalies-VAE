@@ -45,15 +45,16 @@ Match data used in this project is sourced from publicly available ATP records. 
 atp_matches_2000.csv to atp_matches_2017.csv
 Ensure these data files are placed in the root directory of the project before running the scripts.
 
-Installation
+
+## Installation
 Clone the repository and install the required dependencies.
 
 ```bash
-Copy code
 git clone https://github.com/your-username/tennis-draw-anomalies.git
 cd tennis-draw-anomalies
 pip install -r requirements.txt
-Usage
+
+Usage:
 Prepare Data: Ensure all ATP match data CSV files are in the root directory.
 Run the Main Script: Execute the main script to load data, preprocess it, train the model, and analyze anomalies.
 bash
