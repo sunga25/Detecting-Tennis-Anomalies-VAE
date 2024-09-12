@@ -97,10 +97,16 @@ tennis-draw-anomalies/
 │   ├── atp_matches_2001.csv
 │   └── ...
 │
+
+
+
+
 ├── outputs/                        # Directory for saving analysis results
 │   ├── anomalies.csv
 │   ├── anomalies_per_year.csv
 │   └── ...
+
+
 │
 ├── scripts/                        # Scripts for data processing and analysis
 │   ├── load_data.py
@@ -108,6 +114,8 @@ tennis-draw-anomalies/
 │   ├── train_model.py
 │   └── analyze_anomalies.py
 │
+
+
 ├── main.py                         # Main script to run the entire pipeline
 ├── requirements.txt                # List of required Python packages
 └── README.md                       # Project README file
