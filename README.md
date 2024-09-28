@@ -88,38 +88,6 @@ Anomalies by Player and Tournament:
 
 Analysis of which players and tournaments had the most anomalies.
 
-## Project Structure
-
-tennis-draw-anomalies/
-│
-├── data/                           # Directory for raw data files
-│   ├── atp_matches_2000.csv
-│   ├── atp_matches_2001.csv
-│   └── ...
-│
-
-
-
-
-├── outputs/                        # Directory for saving analysis results
-│   ├── anomalies.csv
-│   ├── anomalies_per_year.csv
-│   └── ...
-
-
-│
-├── scripts/                        # Scripts for data processing and analysis
-│   ├── load_data.py
-│   ├── preprocess_data.py
-│   ├── train_model.py
-│   └── analyze_anomalies.py
-│
-
-
-├── main.py                         # Main script to run the entire pipeline
-├── requirements.txt                # List of required Python packages
-└── README.md                       # Project README file
-
 
 ## Contributing
 Contributions are welcome! Please fork the repository and submit a pull request with your changes. For major changes, please open an issue first to discuss what you would like to change.
